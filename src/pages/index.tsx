@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { mdiAccount, mdiBallotOutline, mdiHome, mdiIdCard, mdiMail, mdiNetwork, mdiPhone } from '@mdi/js'
 import { Field, Form, Formik } from 'formik'
 import Head from 'next/head'
