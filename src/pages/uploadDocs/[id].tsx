@@ -67,7 +67,7 @@ const UploadDocs = () => {
   const registerApiCall = async (values) => {
     console.log(values,"values", uploadAdhar)
     try {
-      const response = await axios.patch(`http://13.234.239.70:3000/v1/users/${id}`, {
+      const response = await axios.patch(`http://3.111.218.67:3000/v1/users/${id}`, {
         ...values,
         uploadAdharurl,
         institutionIDurl
