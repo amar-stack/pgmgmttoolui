@@ -24,7 +24,7 @@ const FormsPage = () => {
   const registerApiCall = async (values) => {
     console.log(values, "values")
     try {
-      const response = await axios.post('http://43.204.30.219:3000/v1/auth/register', {
+      const response = await axios.post('http://13.234.239.70:3000/v1/auth/register', {
         ...values
         // add more data if needed
       });
